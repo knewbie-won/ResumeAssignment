@@ -1,0 +1,126 @@
+body {
+    background-color: black;
+}
+/*div section img{
+  width: 200px;
+}*/
+  header {
+  padding: 2%;
+  margin-top: 2%;
+  margin-left:2%;
+  margin-right: 2%;
+  margin-bottom: 0%;
+  background-color:rgba(134, 181, 247);
+  color: black;
+  border-color: black;
+  border-width: 1px;
+  text-align: center;
+}
+header h1 h2 {
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color:rgba(71, 121, 191);
+} 
+.flex-container > section {
+  background-color:rgba(71, 121, 191);
+  margin: 2%;
+  padding: 2%;
+  font-size: 16px;
+  background-color: white;
+}
+.flex-container > section img {
+  width: 100px;
+  padding: 1%;
+  margin: 1%;
+}
+.flex-containerA {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 0%;
+  margin-left:2%;
+  margin-right: 2%;
+  margin-bottom: 0%;
+  background-color:rgba(27, 72, 135);
+} 
+.flex-containerA > section {
+  background-color: white;
+  margin: 2%;
+  padding: 2%;
+  font-size: 16px;
+}
+.flex-containerA > section img {
+  width: 100px;
+  padding: 1%;
+  margin: 1%;
+}
+.flex-containerB {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 0%;
+  margin-left:2%;
+  margin-right: 2%;
+  margin-bottom: 0%;
+  background-color:goldenrod;
+} 
+.flex-containerB > section {
+  margin: 2%;
+  padding: 2%;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+}
+.flex-containerB > p {
+    padding: none;
+    margin: none;
+}
+.flex-containerB > h2 {
+  margin: 1%;
+  padding: 1%; 
+}
+.flex-containerC {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color:rgba(27, 72, 135);
+} 
+.flex-containerC > section {
+  background-color:rgba(71, 121, 191);
+  margin: 2%;
+  padding: 2%;
+  font-size: 16px;
+  background-color: white;
+}
+.flex-containerC > section img {
+  width: 100px;
+  padding: 1%;
+  margin: 1%;
+}
+footer {
+  margin-top: 0%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+}
+footer section {
+  padding: 2%;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+}
