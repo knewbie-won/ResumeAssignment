@@ -1,0 +1,108 @@
+/* color palette
+    822e81: maximum purple      8cff98: Mint Green          8cff98: Mint Green         
+    aa6373: Rose Dust           aad922: Yellow Green        aad922: Yellow Green
+    99AA38: Citron              6f7c12: Olive               f8333c: red salsa
+    392061: Russian Violet      2b4141: Dark Slate Gray     fcab10: Bright Yellow Crayola
+    1A1b25: Raisin Black        ee6352: Fire opal           2b9eb3: Blue Munsell*/
+
+/* Global styles
+----------------------------------------------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    color: #1a1b25;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #aa6373;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 100px;
+    line-height: 1;
+    text-align: center;
+}
+h2 {
+    font-size: 45px;
+    text-align: center; 
+}
+h1, h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile
+----------------------------------------------------------- */
+header {
+    background: #822e81;
+    color: #99aa38;
+}
+
+/* Projects
+----------------------------------------------------------- */
+.projects {
+    background: #99aa38;
+}
+.projects a {
+    color: #392061;
+}
+.projects .btn {
+    color: #aa6373;
+    background: #392061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgb(57, 32, 97, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #1a1b25;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin: 20px;
+}
+.project-item h3 {
+    /* margin-top: 0; for some reason this undoes the title aligining with the top of the image even though it was supposed to be fixing it */
+}
+
+/* Work Experience
+----------------------------------------------------------- */
+.work-experience {
+    background: #aa6373;
+}
+
+/* Education
+----------------------------------------------------------- */
+
+
+
+/* Contact Info
+----------------------------------------------------------- */
+footer {
+    background: #392061;
+    color: #99aa38;
+}
