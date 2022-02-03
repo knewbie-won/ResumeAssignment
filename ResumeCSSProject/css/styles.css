@@ -1,7 +1,8 @@
 /* color palette
     822e81: maximum purple              
     aa6373: Rose Dust           
-    99AA38: Citron              
+    99AA38: Citron  
+    Peachpuff            
     392061: Russian Violet      
     1A1b25: Raisin Black        
 
@@ -18,7 +19,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 }
 img {
@@ -31,8 +32,8 @@ a:hover {
     text-decoration: none;
 }
 h1 {
-    font-size: 100px;
-    line-height: 1;
+    font-size: 110px;
+    /* line-height: 1; */
     text-align: center;
 }
 h2 {
@@ -119,7 +120,7 @@ header h1{
     padding-left: 25px;
     margin: 0;
     text-align: justify;
-    text-justify: inter-character;
+    text-justify: inter-word;
 }
 
 /* Work Experience
@@ -134,6 +135,10 @@ header h1{
 
 /* Education
 ----------------------------------------------------------- */
+.education {
+    background-color:peachpuff;
+    /* background-color: rgba(255,236, 185, 0.25); */
+}
 .education p {
     margin-bottom: 0;
     margin-top: 0;
